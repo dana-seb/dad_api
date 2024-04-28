@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open stat_list.html",
+            "file": "c:\\Users\\dana\\OneDrive\\Desktop\\dad_api\\stats\\templates\\stats\\stat_list.html"
+        }
+    ]
+}

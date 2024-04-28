@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dana Lewis</title>
+</head>
+
+<body>
+    <h1>Dana Lewis Statistics</h1>
+    {% load static %}
+    <img src="{% static '/dana_lewis_free_throw.jpg/'%}" width="400" height="200"
+        alt="This is a picture of Dana Lewis taking a free throw." />
+    {% for stat in stat_list %}
+    <ul>
+        <li>Name: {{ stat.name }}</li>
+        <li>Born: {{ stat.born }}</li>
+        <li>Nationality: {{ stat.nationality }}</li>
+        <li>Height: {{ stat.height }}</li>
+        <li>Weight: {{ stat.weight }}</li>
+    </ul>
+    {% endfor %}
+</body>
+
+</html>
